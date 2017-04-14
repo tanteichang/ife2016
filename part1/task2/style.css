@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.container {
+  background-color: #ccc;
+}
+.header {
+  background-color: #333;
+  height: 100px;
+}
+.header .logo {
+  line-height: 100px;
+}
+.header .logo img {
+  vertical-align: middle;
+}
+.header .item {
+  float: left;
+  margin-right: 30px;
+
+}
+.header .item a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+}
+.header .item:last-child a{
+  color: #666;
+}
+
+.article {
+  background-color: #ffffff;
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.article img {
+  margin: 10px 0;
+}
+.article li {
+  list-style: none;
+}
+.article h2,
+.article h3,
+.article .info {
+  margin: 10px 0;
+}
+.article h3,
+.article .info {
+  color: #666;
+}
+.article .content {
+  text-indent: 2em;
+}
+.article .pic-items li {
+  border: 1px solid #000;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  position: relative;
+}
+.article .pic-items li p {
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+}
+.article .pic-items li img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top:50%;
+  left: 50%;
+  margin: -50px -50px;
+}
+.article .rank {
+  font-weight: bold;
+  margin-left: 30px;
+}
+.article .rank li{
+  list-style: decimal;
+  margin: 10px;
+}
+table {
+  border-collapse:collapse;
+  width: 100%;
+}
+table thead {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+}
+table thead th,
+table td {
+  height: 30px;
+  text-indent: 10px;
+  border: 1px solid #999;
+}
+table tbody tr:last-child {
+  background-color: #999;
+}
+
+aside .aside-title {
+  border-left: 3px solid #999;
+  padding: 10px;
+}
+aside .tip-text {
+  color: #999;
+}
+aside form {
+  margin-left: 100px;
+}
+aside label {
+  text-align: right;
+}
+
+aside header {
+  border-left: 3px solid #ccc;
+  padding: 1px 0 1px 10px;
+  margin-bottom: 10px;
+}
+aside form div {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+aside form .left {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+aside form .left:last-of-type {
+  vertical-align: top;
+}
+aside form .right {
+  margin-left: 5px;
+}
+aside form .placeholder {
+  margin-left: 40%;
+  margin-left: calc(40% + 10px);
+  color: #aaa;
+  font-size: 14px;
+}
+aside form input[type="email"],
+aside form input[type="password"],
+aside form textarea,
+aside form select {
+  padding: 3px;
+}
+aside form input[type="submit"] {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: skyblue;
+  color: #fff;
+}
+aside form textarea {
+  width: 55%;
+}
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+}
