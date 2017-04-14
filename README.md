@@ -7,3 +7,7 @@
 
 - 任务二：零基础 HTML 及 CSS 编码（一）
 [demo](https://tanteichang.github.io/ife2016/part1/task2/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part1/task2)
+
+- 任务三：三栏式布局
+[demo](https://tanteichang.github.io/ife2016/part1/task3/index.html) |
+[code](https://github.com/tanteichang/ife2016/tree/master/part1/task3)
