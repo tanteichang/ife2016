@@ -11,3 +11,6 @@
 - 任务三：三栏式布局
 [demo](https://tanteichang.github.io/ife2016/part1/task3/index.html) |
 [code](https://github.com/tanteichang/ife2016/tree/master/part1/task3)
+
+- 任务四：定位和居中问题
+[demo](https://tanteichang.github.io/ife2016/part1/task4/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part1/task4)
