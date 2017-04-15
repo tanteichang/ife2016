@@ -14,3 +14,6 @@
 
 - 任务四：定位和居中问题
 [demo](https://tanteichang.github.io/ife2016/part1/task4/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part1/task4)
+
+- 任务六：通过HTML及CSS模拟报纸排版
+[demo](https://tanteichang.github.io/ife2016/part1/task6/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part1/task6)
