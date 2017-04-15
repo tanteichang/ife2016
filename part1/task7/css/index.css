@@ -130,3 +130,35 @@
     text-align: center;
     font-size: 56px;
     color: #8d8d8d; }
+
+.main .activity-container .find {
+  height: 340px;
+  min-width: 1280px;
+  background-color: #8d8d8d; }
+  .main .activity-container .find select {
+    width: 236px;
+    height: 36px;
+    color: #8d8d8d;
+    border: 1px solid #e7504d;
+    background: url("../images/arrow.jpg") no-repeat 100% 50% #fff;
+    overflow: hidden; }
+
+.main .activity-container .activities1 {
+  min-width: 1280px;
+  height: 604px;
+  background-color: #f7f7f7; }
+  .main .activity-container .activities1 .container {
+    padding: 0 147px; }
+    .main .activity-container .activities1 .container .item {
+      height: 604px; }
+      .main .activity-container .activities1 .container .item img {
+        display: block;
+        margin: 104px auto 12px; }
+      .main .activity-container .activities1 .container .item .a-title {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 12px; }
+      .main .activity-container .activities1 .container .item .a-sub-title {
+        text-align: center;
+        font-size: 12px;
+        color: #8d8d8d; }

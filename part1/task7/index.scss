@@ -5,6 +5,7 @@ $container-w: 1280px;
 $base-color: #e7504d;
 $base-font-color: #8d8d8d;
 $base-gray: #ededec;
+$act-bg-color: #f7f7f7;
 .container {
     width: $container-w;
     height: 100%;
@@ -196,7 +197,49 @@ $base-gray: #ededec;
     }
 
     .find {
-      
+      height: 340px;
+      min-width: $container-w;
+      background-color: $base-font-color;
+
+      select {
+        width: 236px;
+        height: 36px;
+        color: $base-font-color;
+        border: 1px solid $base-color;
+        background: url('../images/arrow.jpg') no-repeat 100% 50% #fff;
+        overflow: hidden;
+      }
+    }
+
+    .activities1 {
+      min-width: $container-w;
+      height: 604px;
+      background-color: $act-bg-color;
+
+      .container {
+
+        padding: 0 147px;
+
+        .item {
+          height: 604px;
+
+          img {
+            display: block;
+            margin: 104px auto 12px;
+          }
+          .a-title {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 12px;
+          }
+          .a-sub-title {
+            text-align: center;
+            font-size: 12px;
+            color: $base-font-color;
+          }
+        }
+      }
+
     }
   }
 
