@@ -20,3 +20,6 @@
 
 - 任务七：实现常见的技术产品官网的页面架构及样式布局(完成度 90%)
 [demo](https://tanteichang.github.io/ife2016/part1/task7/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part1/task7)
+
+- 任务八：响应式网格（栅格化）布局
+[demo](https://tanteichang.github.io/ife2016/part1/task8/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part1/task8)
