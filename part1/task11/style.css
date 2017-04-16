@@ -1,0 +1,147 @@
+.container {
+  width: 100%;
+}
+.header {
+  background-color: #91d4da;
+  height: 3em;
+
+  font-size: 16px;
+  color: #fff;
+  line-height: 3em;
+  text-align: center;
+}
+.header .backArrow {
+  position: relative;
+  top: 10px;
+  left: 40px;
+}
+.header .backArrow .a1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(45deg);
+  height: 40px;
+  width: 3px;
+  background-color: #ffffff;
+}
+.header .backArrow .a2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(135deg);
+  height: 40px;
+  width: 3px;
+  background-color: #ffffff;
+}
+.header .backArrow .m1 {
+  position: absolute;
+  top: 24px;
+  left: -11px;
+  transform: rotate(135deg);
+  width: 20px;
+  height: 20px;
+  background-color: #91d4da;
+  /*background-color: red;*/
+}
+.header .backArrow .m2 {
+  position: absolute;
+  top: -3px;
+  left: -12px;
+  transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
+  background-color: #91d4da;
+  /*background-color: red;*/
+}
+.header .backArrow .backBtn {
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 3em;
+  width: 100%;
+}
+.nav .item {
+  font-size: 16px;
+  line-height:3em;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 20px 0;
+  color: #000;
+}
+.nav .active {
+  border-bottom: 4px solid #91d4da;
+}
+
+
+.main .bg-container .bg {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.main .label-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.main .label-container .label-item {
+  height: 6em;
+  width: 4em;
+  /*background-color: red;*/
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+.main .label-container .label-item .label-img {
+  display: block;
+  margin: 10px auto;
+  width: 3em;
+  height: 3em;
+}
+
+.main .subfield-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+.main .subfield-container .space {
+  height: 2px;
+  width: 98%;
+  background-color: #ccc;
+  margin-bottom: 30px;
+}
+.main .subfield-container .subfield-item {
+  width: 33%;
+  height: 14em;
+  text-decoration: none;
+}
+.main .subfield-container .subfield-item:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+.main .subfield-container .subfield-item .subfield-img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 6em;
+  height: 8em;
+}
+.main .subfield-container .subfield-item .subfield-title {
+  font-size: 1.5em;
+  color: #000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main .subfield-container .subfield-item .subfield-sub-title {
+  font-size: 1em;
+  color: #aaa;
+  text-align: center;
+}
