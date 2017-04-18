@@ -40,3 +40,6 @@
 
 - 任务十四：零基础JavaScript编码（二）
 [demo](https://tanteichang.github.io/ife2016/part2/task14/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part2/task14)
+
+- 任务十五：零基础JavaScript编码（三）
+[demo](https://tanteichang.github.io/ife2016/part2/task15/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part2/task15)
