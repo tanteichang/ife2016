@@ -32,3 +32,8 @@
 
 - 任务十一：移动Web页面布局实践
 [demo](https://tanteichang.github.io/ife2016/part1/task11/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part1/task11)
+
+### part2
+
+- 任务十三：零基础JavaScript编码（一）
+[demo](https://tanteichang.github.io/ife2016/part2/task13/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part2/task13)
