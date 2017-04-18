@@ -49,7 +49,7 @@ function renderAqiList() {
   // delBtn.forEach(item => item.addEventListener('click', function(e) {
   //   delBtnHandle(e);
   // }));
-
+  
 }
 
 /**

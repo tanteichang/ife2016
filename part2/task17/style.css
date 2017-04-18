@@ -1,0 +1,11 @@
+.aqi-chart-wrap {
+  width: 90vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.box {
+  width: calc(100vh/90);
+}
