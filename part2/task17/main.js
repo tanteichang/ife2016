@@ -8,7 +8,9 @@ var aqiSourceData = {
   }
 };
 */
-const colors = ['#F44336', '#9C27B0','#CDDC39', '#673AB7', '#3F51B5', '#4CAF50', '#2196F3', '#009688', '#E91E63',  '#FF9800', '#00BCD4']
+const colors = ['#F44336', '#9C27B0','#CDDC39', '#673AB7',  '#4CAF50', '#2196F3', '#009688', '#E91E63', '#3F51B5', '#FF9800', '#00BCD4'];
+
+let cityArr = [];
 
 // 以下两个函数用于随机模拟生成测试数据
 function getDateStr(dat) {
@@ -56,8 +58,8 @@ var pageState = {
 /**
  * 渲染图表
  */
-function renderChart(city) {
-  chartData = aqiSourceData[city]
+function renderChart() {
+  chartData = aqiSourceData[cityArr[pageState.nowSelectCity]];
   const aqiWrap = document.querySelector('.aqi-chart-wrap');
   aqiWrap.innerHTML = '';
   let count = 0;
@@ -93,13 +95,13 @@ function graTimeChange() {
 /**
  * select发生变化时的处理函数
  */
-function citySelectChange(city) {
+function citySelectChange() {
   // 确定是否选项发生了变化
 
   // 设置对应数据
 
   // 调用图表渲染函数
-  renderChart(city)
+  renderChart()
 }
 
 /**
@@ -123,9 +125,10 @@ function initCitySelector() {
   }
   // 给select设置事件，当选项发生变化时调用函数citySelectChange
   citySelect.onchange = function(e) {
-    //console.log(e.target.value);
-    const city = e.target.value
-    citySelectChange(city);
+    // console.log(e.target.selectedIndex);
+    // const city = e.target.value
+    pageState.nowSelectCity = e.target.selectedIndex;
+    citySelectChange();
   }
 }
 
@@ -134,13 +137,34 @@ function initCitySelector() {
  */
 function initAqiChartData() {
   // 将原始的源数据处理成图表需要的数据格式
+  // console.log(aqiSourceData);
+  // let week = {}, weekCount;
+  // for (let key in aqiSourceData) {
+  //   //console.log(aqiSourceData[key]);
+  //   let city = aqiSourceData[key];
+  //   let dateArr = Object.getOwnPropertyNames(city);
+  //   let aqiArr = Object.getOwnPropertyNames(aqiSourceData[key]);
+  //   console.log(aqiArr);
+  //   //console.log(dateArr);
+  //   for (var i = 0; i < aqiArr.length; i++) {
+  //     let day = aqiArr[i].slice(-2)
+  //     //console.log(day);
+  //   }
+  // }
   // 处理好的数据存到 chartData 中
+
+
+
 }
 
 /**
  * 初始化函数
  */
 function init() {
+  for (var key in aqiSourceData) {
+    cityArr.push(key);
+  }
+
   initGraTimeForm()
   initCitySelector();
   initAqiChartData();
