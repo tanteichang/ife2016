@@ -50,3 +50,6 @@
 
 - [ ]任务十七：零基础JavaScript编码（五）(完成度 60%)
 [demo](https://tanteichang.github.io/ife2016/part2/task17/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part2/task17)
+
+- [x]任务十八：基础JavaScript练习（一）
+[demo](https://tanteichang.github.io/ife2016/part2/task18/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part2/task18)
