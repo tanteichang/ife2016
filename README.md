@@ -54,5 +54,5 @@
 - [x] 任务十八：基础JavaScript练习（一）
 [demo](https://tanteichang.github.io/ife2016/part2/task18/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part2/task18)
 
-- [ ] 任务十九：基础JavaScript练习（二）
+- [ ] 任务十九：基础JavaScript练习（二）(完成度 60%)
 [demo](https://tanteichang.github.io/ife2016/part2/task19/index.html) | [code](https://github.com/tanteichang/ife2016/tree/master/part2/task19)
