@@ -78,7 +78,7 @@ input[type='button'], button {
 
     .login {
         margin-right: 54px;
-        background-image: url('../images/login.png');
+        background-image: url('../dist/images/login.png');
         background-repeat: no-repeat;
         background-position: 26% 50%;
 
@@ -213,7 +213,7 @@ input[type='button'], button {
       height: 340px;
       min-width: $container-w;
       background-color: $base-font-color;
-      background-image: url('../images/map.jpg');
+      background-image: url('../dist/images/map.jpg');
       background-repeat: no-repeat;
       background-size: 100% auto;
       padding-top: 50px;
@@ -304,7 +304,7 @@ input[type='button'], button {
         .focus-img {
           width: 850px;
           height: 570px;
-          background: url('../images/newword.jpg') no-repeat center center;
+          background: url('../dist/images/newword.jpg') no-repeat center center;
           color: #fff;
           text-align: center;
           .a2i-title1 {

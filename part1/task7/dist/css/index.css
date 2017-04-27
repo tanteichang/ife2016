@@ -1,4 +1,11 @@
 @charset "UTF-8";
+input, textarea, button {
+  outline: 0;
+  border: 0; }
+
+input[type='button'], button {
+  cursor: pointer; }
+
 .container {
   width: 1280px;
   height: 100%;
@@ -165,7 +172,6 @@
       height: 36px;
       color: #8d8d8d;
       border: 1px solid #e7504d;
-      background: url("../images/arrow.jpg") no-repeat 100% 50% #fff;
       overflow: hidden; }
     .main .activity-container .find .selects button {
       float: left;
@@ -323,21 +329,21 @@
         transform: rotate(90deg); }
   .main .volunteer .submite input {
     margin: 6px 9px;
-    border: 0;
     height: 40px;
     width: 308px;
-    background-color: #ededec; }
+    background-color: #ededec;
+    text-indent: 1em; }
   .main .volunteer .submite .life {
     margin: 6px 0;
     width: 638px;
     height: 120px;
     background-color: #ededec;
-    border: 0; }
-  .main .volunteer .submite button {
+    text-indent: 1em; }
+  .main .volunteer .submite input[type='button'] {
     width: 638px;
     height: 38px;
     background-color: #ededec;
-    border: 0; }
+    cursor: pointer; }
 
 .footer .contact {
   min-width: 1280px;
@@ -368,8 +374,7 @@
     color: #fff;
     font-size: 15px;
     letter-spacing: 10px;
-    text-indent: 10px;
-    border: 0; }
+    text-indent: 10px; }
   .footer .contact .social-item {
     margin: 40px 10px 0 10px;
     display: inline-block;
